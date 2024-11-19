@@ -1,0 +1,37 @@
+#menu-bar a{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    text-decoration: none;
+    background-color: rgb(168, 218, 32);
+    padding: 15px;
+
+   }
+   
+   th {
+    font-weight: 1000;
+    background-color: rgb(168, 218, 32);
+    color: royalblue;
+font-size: x-large;}
+
+table{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    border-collapse: collapse;
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(218, 32, 134);
+    border-radius: 5px;
+    
+}
+td.image-cell {
+    width: 100px; /* Set the desired cell width */
+    height: 100px; /* Set the desired cell height */
+    text-align: center; /* Center the image horizontally */
+    vertical-align: middle; /* Center the content vertically */
+    overflow: visible; /* Ensures content stays within the cell */
+  }
+  
+  /* Image styling */
+  td.image-cell img {
+    width:100%; /* Force image to fill the cell width */
+    height: 100%; /* Force image to fill the cell height */
+    display: block; /* Removes inline spacing issues */
+  }
